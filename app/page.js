@@ -3,28 +3,22 @@ import { getFrameMetadata } from '@coinbase/onchainkit';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: "Ethereum" 
-    },
-    {
-      label: "Shardeum" 
-    },
-    {
-      label: "Solana" 
+      label: "Next Jethalal Meme" 
     },
   ],
-  image: 'https://drive.google.com/file/d/1c-zcMzH_5LOFElhYBq97LqOcmWhx56VV/view?usp=sharing',
+  image: 'https://tenor.com/btb7G.gif',
 
   //which api to call when we click next button
   post_url: 'https://meme-fram-tugf.vercel.app/api',
 });
 
 export const metadata = {
-  title: 'Bollywod Frame',
-  description: 'Bollywood Frame',
+  title: 'Meme Frame',
+  description: 'Mem Frame',
   openGraph: { 
-    title: 'Bollywood Frame',
-    description: 'Bollywood Frame',
-    images: ['https://drive.google.com/file/d/1c-zcMzH_5LOFElhYBq97LqOcmWhx56VV/view?usp=sharing'],
+    title: 'Meme Frame',
+    description: 'Meme Frame',
+    images: ['https://tenor.com/bHvGE.gif'],
   },
   other: {
     ...frameMetadata,
