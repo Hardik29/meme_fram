@@ -3,21 +3,27 @@ import { getFrameMetadata } from '@coinbase/onchainkit';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: "Next" 
+      label: "Sharuakh Khan" 
+    },
+    {
+      label: "Salman Khan" 
+    },
+    {
+      label: "Aamir Khan" 
     },
   ],
-  image: 'https://www.lifewire.com/thmb/K0oF6bk8jsXRJFUFma5pNo7xjyc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Goalfor2020FunnyMeme-04eadff55a17489a85453238481fe36e.jpg',
+  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4bE-m4Taohm0RAxy-6eFc2txRiYUnDNs96A&usqp=CAU',
 
   //which api to call when we click next button
   post_url: 'https://meme-fram.vercel.app/api',
 });
 
 export const metadata = {
-  title: 'Meme Frame',
-  description: 'Meme Frame',
+  title: 'Bollywod Frame',
+  description: 'Bollywood Frame',
   openGraph: { 
-    title: 'Meme Frame',
-    description: 'Meme Frame',
+    title: 'Bollywood Frame',
+    description: 'Bollywood Frame',
     images: ['https://media.sproutsocial.com/uploads/meme-example.jpg'],
   },
   other: {
