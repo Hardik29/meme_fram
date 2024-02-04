@@ -3,16 +3,16 @@ import { getFrameMetadata } from '@coinbase/onchainkit';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: "Sharuakh Khan" 
+      label: "Ethereum" 
     },
     {
-      label: "Salman Khan" 
+      label: "Shardeum" 
     },
     {
-      label: "Aamir Khan" 
+      label: "Solana" 
     },
   ],
-  image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4bE-m4Taohm0RAxy-6eFc2txRiYUnDNs96A&usqp=CAU',
+  image: 'https://drive.google.com/file/d/1c-zcMzH_5LOFElhYBq97LqOcmWhx56VV/view?usp=sharing',
 
   //which api to call when we click next button
   post_url: 'https://meme-fram-znqt.vercel.app/api',
@@ -24,7 +24,7 @@ export const metadata = {
   openGraph: { 
     title: 'Bollywood Frame',
     description: 'Bollywood Frame',
-    images: ['https://media.sproutsocial.com/uploads/meme-example.jpg'],
+    images: ['https://drive.google.com/file/d/1c-zcMzH_5LOFElhYBq97LqOcmWhx56VV/view?usp=sharing'],
   },
   other: {
     ...frameMetadata,
